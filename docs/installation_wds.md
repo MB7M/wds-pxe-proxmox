@@ -60,7 +60,7 @@ Le serveur WDS est intégré à un domaine Active Directory. Le service DHCP est
     - Transport PXE
         
 
-![sortie](/captures/wds_composants.png
+![sortie](/captures/wds_composants.png)
 
 #### 3. Lancer l’installation
 
@@ -89,7 +89,7 @@ Le serveur WDS est intégré à un domaine Active Directory. Le service DHCP est
 - Répondre aux clients : **connus et inconnus**
     
 
-![sortie](/captures/console_wds.png
+![sortie](/captures/console_wds.png)
 
 ---
 
@@ -133,7 +133,7 @@ dism /Export-Image /SourceImageFile:"D:\sources\install.esd" /SourceIndex:6 /Des
 - Nom personnalisé : `Windows PE`
     
 
-![sortie](/captures/image_démarrage.png
+![sortie](/captures/image_démarrage.png)
 
 #### 4. Ajouter une image d’installation
 
@@ -146,7 +146,7 @@ dism /Export-Image /SourceImageFile:"D:\sources\install.esd" /SourceIndex:6 /Des
 - Cochez l’édition souhaitée (ex. : Windows 10 Pro)
     
 
-![sortie](/captures/image_installation.png
+![sortie](/captures/image_installation.png)
 
 ---
 
