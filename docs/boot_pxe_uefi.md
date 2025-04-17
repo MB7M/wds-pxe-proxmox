@@ -37,7 +37,7 @@ Add-DhcpServerv4OptionDefinition -ComputerName WIN-AD-GUI -Name PXEClient -Descr
 
 - ComputerName à adapter en fonction du serveur
 
-![PXE Option 060](./captures/ajout_op60.png)
+![PXE Option 060](./captures/ajout_op_60.png)
 
 ---
 
