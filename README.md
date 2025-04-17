@@ -34,7 +34,7 @@ Infrastructure de déploiement automatisé de postes de travail Windows 10 sur u
 
 Accessible dans [`/docs`](./docs) :  
 
-- [Configuration VM Proxmox BIOS / UEFI](./doc/configurer-vm-proxmox-bios-uefi.md)
+- [Configuration VM Proxmox BIOS / UEFI](./doc/configurer_vm_proxmox_bios_uefi.md)
 - [Installation du rôle WDS](./doc/installation_wds.md)
 - [Configuration boot PXE BIOS](./doc/boot_pxe_bios.md)
 - [Configuration boot PXE UEFI](./doc/boot_pxe_uefi.md)
