@@ -5,7 +5,7 @@
 Configurer un environnement PXE fonctionnel pour les machines virtuelles démarrant en **mode BIOS**, à l’aide d’un serveur WDS sur Windows Server 2022. Ce guide s’applique aux environnements virtualisés sous Proxmox VE.
 
 > Pour la configuration du démarrage PXE en mode UEFI (et cohabitation BIOS/UEFI), se référer au fichier [boot-pxe-uefi.md](./boot_pxe_uefi.md).  
-> Pour la configuration des VMs dans Proxmox, se référer au fichier [configurer-vm-proxmox-bios-uefi.md](./configurer-vm-proxmox-bios-uefi.md)  
+> Pour la configuration des VMs dans Proxmox, se référer au fichier [configurer-vm-proxmox-bios-uefi.md](./configurer_vm_proxmox_bios_uefi.md)  
 > Pour l'installation du rôle WDS et l'ajout des images, voir [installation_wds.md](./installation_wds.md)
 
 ---
