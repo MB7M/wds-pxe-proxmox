@@ -4,7 +4,7 @@
 
 Préparer une machine virtuelle dans **Proxmox VE** pour tester le démarrage PXE sur un serveur WDS, en mode **BIOS** ou **UEFI**, selon les scénarios documentés ci-dessous :
 
-- Configuration PXE en mode BIOS
+- [Configuration PXE en mode BIOS](./boot_pxe_bios.md)
     
 - Configuration PXE en mode UEFI et cohabitation BIOS/UEFI
     
