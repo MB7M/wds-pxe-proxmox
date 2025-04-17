@@ -6,7 +6,7 @@ Configurer un environnement PXE fonctionnel pour les machines virtuelles démarr
 Ce guide s’applique aux environnements virtualisés sous Proxmox VE.
 
 > Pour la configuration du démarrage PXE en mode BIOS uniquement, se référer à [`boot-pxe-bios.md`](./boot_pxe_bios.md)  
-> Pour la configuration des VMs dans Proxmox, se référer à [`configurer-vm-proxmox-bios-uefi.md`](./configurer_vm_proxmox_bios_uefi.md)
+> Pour la configuration des VMs dans Proxmox, se référer à [`configurer-vm-proxmox-bios-uefi.md`](./configurer_vm_proxmox_bios_uefi.md)  
 > Pour l'installation du rôle WDS et l'ajout des images, voir [`installation_wds.md`](./installation_wds.md)
 
 ---
