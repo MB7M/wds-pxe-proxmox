@@ -37,7 +37,7 @@ Add-DhcpServerv4OptionDefinition -ComputerName WIN-AD-GUI -Name PXEClient -Descr
 
 - ComputerName à adapter en fonction du serveur
 
-![PXE Option 060](./captures/ajout_op_60.png)
+![PXE Option 060](/captures/ajout_op_60.png)
 
 ---
 
@@ -58,7 +58,7 @@ Ces classes permettent d’identifier l’architecture du client (BIOS ou UEFI) 
 | PXEClient - UEFI x86 *(optionnel)* | PXEClient:Arch:00006    |
 
  
-![Classes DHCP](./captures/classe_fournisseurs.png)
+![Classes DHCP](/captures/classe_fournisseurs.png)
 
 > Pour automatiser cette étape, voir : [`pxe_dhcp_strategies.ps1`](../scripts/pxe_dhcp_strategies.ps1 – lignes 10 à 13
 
@@ -81,11 +81,11 @@ Les stratégies permettent de fournir dynamiquement le bon fichier de démarrage
 | UEFI x86 (optionnel)| 172.168.1.42             | `boot\x86\wdsmgfw.efi`           |
 
   
-  ![Stratégies DHCP](./captures/stratégies_etendues.png)  
+  ![Stratégies DHCP](/captures/stratégies_etendues.png)  
 
 Si l'on regarde les options de notre étendue DHCP, on peut voir qu'il y a beaucoup de valeurs. Effectivement, nous avons plusieurs fois les mêmes options, mais avec des valeurs différentes, et la bonne valeur sera appliquée en fonction de la machine qui initie la connexion.
 
-  ![Options PXE](./captures/options_etendues.png)
+  ![Options PXE](/captures/options_etendues.png)
 
 > Pour automatiser cette étape, voir : [`pxe_dhcp_strategies.ps1`](../scripts/pxe_dhcp_strategies.ps1 – lignes 17 à 28
 
@@ -111,4 +111,4 @@ Si l'on regarde les options de notre étendue DHCP, on peut voir qu'il y a beauc
 3. L'écran du **WDS Boot Manager** s'affiche, indiquant que le client est prêt  
 4. L'utilisateur doit appuyer sur **Entrée** pour lancer le chargement de `boot.wim`
 
-![Boot PXE UEFI](./captures/boot_uefi.png)
+![Boot PXE UEFI](/captures/boot_uefi.png)
