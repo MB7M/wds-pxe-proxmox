@@ -130,7 +130,7 @@ dism /Export-Image /SourceImageFile:"D:\sources\install.esd" /SourceIndex:6 /Des
     
 - Sélectionner `boot.wim`
     
-- Nom personnalisé : `Windows PE`
+- Nom personnalisé : `Windows 10`
     
 
 ![sortie](/captures/image_démarrage.png)
