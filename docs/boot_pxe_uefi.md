@@ -60,7 +60,6 @@ Ces classes permettent d’identifier l’architecture du client (BIOS ou UEFI) 
  
 ![Classes DHCP](/captures/classe_fournisseurs.png)
 
-> Pour automatiser cette étape, voir : [`pxe_dhcp_strategies.ps1`](../scripts/pxe_dhcp_strategies.ps1 – lignes 10 à 13
 
 ---
 
@@ -87,9 +86,6 @@ Si l'on regarde les options de notre étendue DHCP, on peut voir qu'il y a beauc
 
   ![Options PXE](/captures/options_etendues.png)
 
-> Pour automatiser cette étape, voir : [`pxe_dhcp_strategies.ps1`](../scripts/pxe_dhcp_strategies.ps1 – lignes 17 à 28
-
-
 ---
 
 ### D. Test du démarrage PXE UEFI
@@ -111,4 +107,10 @@ Si l'on regarde les options de notre étendue DHCP, on peut voir qu'il y a beauc
 3. L'écran du **WDS Boot Manager** s'affiche, indiquant que le client est prêt  
 4. L'utilisateur doit appuyer sur **Entrée** pour lancer le chargement de `boot.wim`
 
-![Boot PXE UEFI](/captures/boot_uefi.png)
+![Boot PXE UEFI](/captures/boot_uefi.png)  
+
+##  Automatiser toute la configuration
+
+L'ensemble des étapes manuelles décrites ci-dessus (option 060, classes de fournisseurs, stratégies DHCP) peuvent être automatisées via un script PowerShell.
+
+Voir le script complet : [`scripts/pxe_dhcp_strategies.ps1`](../scripts/pxe_dhcp_strategies.ps1)
