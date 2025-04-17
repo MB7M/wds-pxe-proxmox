@@ -6,7 +6,7 @@ Préparer une machine virtuelle dans **Proxmox VE** pour tester le démarrage PX
 
 - [Configuration PXE en mode BIOS](./boot_pxe_bios.md)
     
-- Configuration PXE en mode UEFI et cohabitation BIOS/UEFI
+- [Configuration PXE en mode UEFI et cohabitation BIOS/UEFI](.boot_pxe_uefi.md)
     
 
 ---
