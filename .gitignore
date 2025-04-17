@@ -1,0 +1,38 @@
+# === Fichiers temporaires système ===
+*.bak
+*.tmp
+*.log
+*.swp
+*.swo
+*.~lock.*
+Thumbs.db
+.DS_Store
+
+# === Fichiers de cache des éditeurs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Fichiers PowerShell inutiles ===
+*.ps1.xml
+*.ps1.psm1
+*.ps1.save
+*.psm1.save
+
+# === Exports ou données temporaires ===
+*.zip
+*.7z
+*.tar.gz
+*.rar
+
+# === Fichiers Word/Excel temporaires ===
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# === Fichiers sensibles à ne pas versionner ===
+*.csv
+*.xlsx
+*.env
+secrets.txt
+credentials.json
