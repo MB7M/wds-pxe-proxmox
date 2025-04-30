@@ -1,6 +1,9 @@
 # Déploiement PXE BIOS / UEFI via WDS – Proxmox VE
 
-Infrastructure de déploiement automatisé de postes de travail Windows 10 sur un cloud privé Proxmox, avec configuration du serveur WDS, gestion du boot PXE (BIOS & UEFI), DHCP séparé et intégration de scripts PowerShell pour l'automatisation.
+Infrastructure de déploiement automatisé de postes de travail Windows 10 sur un cloud privé Proxmox, avec configuration du serveur WDS, gestion du boot PXE (BIOS & UEFI), DHCP séparé et intégration de scripts PowerShell pour l'automatisation.  
+
+🔗 Ce dépôt constitue la **première étape** d’un projet complet de déploiement. Il s’accompagne d’un second volet dédié à l’utilisation de **MDT** pour déployer automatiquement des postes Windows 11 via PXE.  
+Accéder au projet MDT : [mdt-pxe-proxmox](https://github.com/MB7M/mdt-pxe-proxmox)
 
 ---
 
